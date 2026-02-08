@@ -17,6 +17,10 @@ struct StartTabView: View {
             Tab("GeometryChange", systemImage: "2.circle.fill") {
                 ScrollGeometryChangeTab()
             }
+            
+            Tab("GeometryPhase", systemImage: "3.circle.fill") {
+                ScrollGeometryPhaseTab()
+            }
         }
     }
 }
