@@ -14,8 +14,8 @@ struct StartTabView: View {
                 ScrollPositionTabView()
             }
             
-            Tab("Position", systemImage: "2.circle.fill") {
-                Text("Hello")
+            Tab("GeometryChange", systemImage: "2.circle.fill") {
+                ScrollGeometryChangeTab()
             }
         }
     }
