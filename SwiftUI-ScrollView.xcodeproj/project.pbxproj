@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		9E7C41562F3844AE006524C8 /* SwiftUI-iOS18-ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-iOS18-ScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E7C41562F3844AE006524C8 /* SwiftUI-ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-ScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9E7C41582F3844AE006524C8 /* SwiftUI-iOS18-ScrollView */ = {
+		9E7C41582F3844AE006524C8 /* SwiftUI-ScrollView */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI-iOS18-ScrollView";
+			path = "SwiftUI-ScrollView";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		9E7C414D2F3844AE006524C8 = {
 			isa = PBXGroup;
 			children = (
-				9E7C41582F3844AE006524C8 /* SwiftUI-iOS18-ScrollView */,
+				9E7C41582F3844AE006524C8 /* SwiftUI-ScrollView */,
 				9E7C41572F3844AE006524C8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -40,7 +40,7 @@
 		9E7C41572F3844AE006524C8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9E7C41562F3844AE006524C8 /* SwiftUI-iOS18-ScrollView.app */,
+				9E7C41562F3844AE006524C8 /* SwiftUI-ScrollView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9E7C41552F3844AE006524C8 /* SwiftUI-iOS18-ScrollView */ = {
+		9E7C41552F3844AE006524C8 /* SwiftUI-ScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9E7C41612F3844AF006524C8 /* Build configuration list for PBXNativeTarget "SwiftUI-iOS18-ScrollView" */;
+			buildConfigurationList = 9E7C41612F3844AF006524C8 /* Build configuration list for PBXNativeTarget "SwiftUI-ScrollView" */;
 			buildPhases = (
 				9E7C41522F3844AE006524C8 /* Sources */,
 				9E7C41532F3844AE006524C8 /* Frameworks */,
@@ -61,13 +61,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9E7C41582F3844AE006524C8 /* SwiftUI-iOS18-ScrollView */,
+				9E7C41582F3844AE006524C8 /* SwiftUI-ScrollView */,
 			);
-			name = "SwiftUI-iOS18-ScrollView";
+			name = "SwiftUI-ScrollView";
 			packageProductDependencies = (
 			);
 			productName = "SwiftUI-iOS18-ScrollView";
-			productReference = 9E7C41562F3844AE006524C8 /* SwiftUI-iOS18-ScrollView.app */;
+			productReference = 9E7C41562F3844AE006524C8 /* SwiftUI-ScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9E7C41512F3844AE006524C8 /* Build configuration list for PBXProject "SwiftUI-iOS18-ScrollView" */;
+			buildConfigurationList = 9E7C41512F3844AE006524C8 /* Build configuration list for PBXProject "SwiftUI-ScrollView" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9E7C41552F3844AE006524C8 /* SwiftUI-iOS18-ScrollView */,
+				9E7C41552F3844AE006524C8 /* SwiftUI-ScrollView */,
 			);
 		};
 /* End PBXProject section */
@@ -274,13 +274,16 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Debug;
@@ -318,13 +321,16 @@
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 26.2;
 			};
 			name = Release;
@@ -332,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9E7C41512F3844AE006524C8 /* Build configuration list for PBXProject "SwiftUI-iOS18-ScrollView" */ = {
+		9E7C41512F3844AE006524C8 /* Build configuration list for PBXProject "SwiftUI-ScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E7C415F2F3844AF006524C8 /* Debug */,
@@ -341,7 +347,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9E7C41612F3844AF006524C8 /* Build configuration list for PBXNativeTarget "SwiftUI-iOS18-ScrollView" */ = {
+		9E7C41612F3844AF006524C8 /* Build configuration list for PBXNativeTarget "SwiftUI-ScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9E7C41622F3844AF006524C8 /* Debug */,
