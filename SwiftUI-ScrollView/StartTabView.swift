@@ -24,6 +24,9 @@ struct StartTabView: View {
             Tab("Visibility", systemImage: "4.circle.fill") {
                 ScrollVisibilityTab()
             }
+            Tab("CarouselView", systemImage: "5.circle.fill") {
+                CarouselView()
+            }
         }
     }
 }
